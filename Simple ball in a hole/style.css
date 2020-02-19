@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    background-color: lavender
+}
+h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+#playfield{
+    position: static;
+    height: 100%;
+    width: 100%;
+    background-color: lavender;
+    margin: 0px;
+    
+}
+
+#ball{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 15;
+    border: 1px solid black;
+    background: red;
+}
+
+#hole{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    right: 50px;
+    bottom: 50px;
+    overflow: hidden;
+}
+
+
+
+  .hole{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.92);
+    box-shadow: 0 0 10px black;
+    border-radius: 100%;
+    width : 52px;
+    height: 52px;
+  }
+
+  #ho1 {
+    top   : 230px;
+    left  : 400px;
+  }
+
+  #ho2 {
+    top   : 300px;
+    left  : 500px;
+  }
+
+  #ho3 {
+    top   : 370px;
+    left  : 100px;
+  }
+  #ho4 {
+    top   : 80px;
+    left  : 450px;
+  }
+
+  #ho5 {
+    top   : 480px;
+    left  : 300px;
+  }
+  #ho6 {
+    top   : 500px;
+    left  : 150px;
+  }
+  #ho7 {
+    top   : 350px;
+    left  : 400px;
+  }
+  #ho8 {
+    top   : 225px;
+    left  : 50px;
+  }
+  #ho9 {
+    top   : 420px;
+    left  : 200px;
+  }
+  #ho10 {
+    top   : 560px;
+    left  : 30px;
+  }
+  #ho11 {
+    top   : 460px;
+    left  : 700px;
+  }
+
+
+  .info {
+    position: absolute;
+    padding: 100px;
+    visibility: hidden;
+    background: rgba(237, 243, 238, 0.506);
+  }
+
+  #finalhole{
+    top   : 450px;
+    left  : 400px;
+    background: white;
+    position: absolute;
+    box-shadow: 0 0 10px black;
+    border-radius: 100%;
+    width : 52px;
+    height: 52px;
+  }
+  

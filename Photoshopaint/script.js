@@ -132,5 +132,5 @@ function mouseMove(canvas,e){
 }
 
 function mouseUp(){
-    isMouseDown=false
+    isMouseDown=false;
 }
