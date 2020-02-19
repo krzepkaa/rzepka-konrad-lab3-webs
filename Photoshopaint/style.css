@@ -1,0 +1,86 @@
+#canvas {
+   position: absolute;
+   background: aliceblue;
+   width: 100%;
+   bottom: 0;
+}
+
+#bar{
+   height: 100px;
+   top: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+   background: #575aff;
+}
+
+.barLeft{
+   margin: 5px;
+   padding: 5px;
+   float: left;
+   width: auto;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.barRight{
+   margin: 5px;
+   padding: 2px;
+   position: absolute;
+   float: center;
+   right: 2px;
+   width: auto;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+
+.brush {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(211, 192, 255);
+}
+
+.circle {
+   border-radius: 50%;
+}
+
+.black{
+   background: black;
+}
+
+.red {
+   background: red;
+}
+
+.blue{
+   background: blue;
+}
+
+.green{
+   background: green;
+}
+
+.square-brush-btn {
+   width: 20px;
+   height: 20px;
+   background: rgb(227, 192, 255);
+   border: none;
+}
+
+.circle-brush-btn {
+   width: 20px;
+   height: 20px;
+   background: rgb(214, 192, 255);
+   border: none;
+   border-radius: 50%;
+}
+
+@keyframes dissapear {
+   0% {
+       opacity: 1;
+   }
+   100% {
+       opacity: 0;
+   }
+}
